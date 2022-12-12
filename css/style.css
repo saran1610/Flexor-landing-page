@@ -426,9 +426,12 @@
 .col-items span:hover{
 	background-color:var(--primary);
 }
-/* span:first-child{ */
-	/* background-color:var(--primary); */
-/* } */
+.about-span span:first-child{
+	background-color:var(--primary);
+}
+.col-items span:first-child{
+	background-color:var(--primary);
+}
 
 
 /* #################   Service Style    ##################### */
