@@ -414,7 +414,8 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	gap:6px;
+	gap:10px;
+	margin-top:10px;
 }
 .col-items span{
 	height:10px;
@@ -422,11 +423,18 @@
 	border:1px solid var(--primary);
 	border-radius:50%;
 }
+.col-items span:hover{
+	background-color:var(--primary);
+}
+/* span:first-child{ */
+	/* background-color:var(--primary); */
+/* } */
 
 
-/* ########   Service Style    ########## */
+/* #################   Service Style    ##################### */
 
 .service-section{ 
+    background-color:#f8feff;
     padding: 80px 0;
 }
 
@@ -478,17 +486,39 @@
 .si-icon{
 	position:absolute;
 	top: -30px;
-    left: 45%;
+    left:50%;
   	border-radius:50%;
 	border:1px solid var(--primary);
 	background-color:var(--primary);
 	color:white;
 	width:60px;
 	height:60px;
-	padding: 14px;
+	/* padding: 14px; */
+	text-align:center;
+	line-height:60px;
     font-size: 30px;
+	transform:translate(-50%);
 }
-/*-----------service section---------------*/
+.si-icon::after{
+	content:"";
+	position:absolute;
+	top: 0;
+    left:0;
+	width:100%;
+	height:100%;
+  	border-radius:50%;
+	border:1px solid var(--primary);
+	background-color:var(--primary);
+	z-index:-1;
+	transition:all 0.2s ease;
+}
+.service-items:hover .si-icon::after{
+	transform:scale(1.1);
+	background-color:white;
+	
+}
+
+/*-------------------------------service section----------------------------*/
 .service-pic{
 	
 	padding: 50px 0;
@@ -658,12 +688,15 @@
 	text-decoration:none;
 	padding-left: 20px;
     color: black;
+	padding: 4px 12px;
 }
 .portfolio-nav a:hover{
 	color:var(--primary);
 	border:1px solid var(--primary);
 	border-radius:20px;
-	background-color:#bee1ed;
+	background-color:#def0f7;
+	border:none;
+	padding: 4px 12px;
 	
 }
  .portfolio-nav .nav1 {
@@ -671,7 +704,8 @@
 	border-radius:20px;
 	padding: 4px 12px;
     color: var(--primary);
-	background-color:#bee1ed;
+	background-color:#def0f7;
+	border:none;
 	/* width:70px; */
 	
 }
@@ -701,15 +735,21 @@
 	transition:all 0.3s ease;
 	
 }
+.port-link p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	color:var(--Secondary);
+}
 .port-link h4{
 	margin-bottom:10px;
+	font-family: 'Raleway', sans-serif;
 }
 /*------------------portfolia section ends-------------------------------------*/
 
 
 /*-------------team section starts---------------------------------*/
 .team{
-	
+	background-color:#f8feff;
 	padding:60px 0;
 }
 .team-head{
@@ -851,9 +891,24 @@
     margin-left:86px;
 	font-family: 'Raleway', sans-serif;
 }
+.advance-pic{
+	position:relative;
+    overflow: hidden;
+}
+.advance{
+	background-color:var(--primary);
+	color:white;
+	position:absolute;
+	top: 20px;
+    right: -50px;
+    transform: rotate(45deg);
+    padding: 4px 50px;
+	
+}
+
 /*========pricing section end===========*/
 .faq{
-	
+	background-color:#f8feff;
 	padding:60px 0;
 }
 .faq-head{
@@ -862,24 +917,32 @@
 .faq-head p{
 	line-height:1.4;
 	padding-top:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+}
+.faq-head h3{
+	font-size:30px;
 }
 .faq-ques {
 	margin-top:70px;
+	padding-left:70px;
+	 
 }
 .faq-ques a{
 	 text-decoration:none;
 	 color:black;
 	 line-height:2.5;
-	
 }
-.faq-ques i{
+.faq-list .fa{
+	padding: 8px;
+    font-size: 25px;
 	color:var(--primary);
-	opacity:0.2;
+	opacity:0.4;
 }
 .faq-list li{
-	
+	padding:10px;
 }
-/*========faq section end===========*/
+/*===================faq section end===============*/
 
 .contact{
 	
@@ -959,7 +1022,7 @@
 /*==================================contact section end==========================*/
 
 .last-section{
-	
+	background-color:#f8feff;
 	padding:40px 0;
 }
 .last-list{
