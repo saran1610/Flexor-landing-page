@@ -51,7 +51,7 @@
   }
 }
 /* ------------larger device------------------ */
-@media all and (min-width:577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .container {
     width: 100%;
   }
@@ -61,32 +61,35 @@
   .list {
     display: none;
   }
-  .no-pic{
-    display:none;
+  .no-pic {
+    display: none;
   }
-  .service-large, .price-pic1, .last-sec1, .team-sec1,   .service-sec1,  .portfolio-sec1{
-    width:50%;
+  .service-large,
+  .price-pic1,
+  .last-sec1,
+  .team-sec1,
+  .service-sec1,
+  .portfolio-sec1 {
+    width: 50%;
   }
-  .client-pic{
-    width:25%;
+  .client-pic {
+    width: 25%;
   }
-  .faq-ques{
-    padding:10px;
+  .faq-ques {
+    padding: 10px;
   }
-  .faq-list{
-    padding:0px;
+  .faq-list {
+    padding: 0px;
   }
   .addedspace {
-    padding:10px;
+    padding: 10px;
   }
-.edit .fa{
- display:flex;
- justify-content: center;
- padding:0px;
-}
+  .edit .fa {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
 }
 /* ---------extra large device---------- */
-@media all and (max-width: 992px){
-
-
+@media all and (max-width: 992px) {
 }
