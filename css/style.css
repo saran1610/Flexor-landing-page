@@ -619,8 +619,6 @@
 }
 
 .about-cont .p1 {
-  margin-top: 20px;
-  margin-bottom: 20px;
   padding: 0px 125px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -941,7 +939,6 @@
 .faq-ques a {
   text-decoration: none;
   color: black;
-  line-height: 2.5;
 }
 .faq-list .fa {
   padding: 8px;
