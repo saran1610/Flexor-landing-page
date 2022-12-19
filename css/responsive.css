@@ -51,7 +51,7 @@
   }
 }
 /* ------------larger device------------------ */
-@media all and (max-width: 768px) {
+@media all and (min-width:577px) and (max-width: 768px) {
   .container {
     width: 100%;
   }
@@ -88,5 +88,5 @@
 /* ---------extra large device---------- */
 @media all and (max-width: 992px){
 
-    
+
 }
