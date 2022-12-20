@@ -1,3 +1,45 @@
+/* ------------larger device------------------ */
+@media (min-width: 577px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .row > * {
+    width: 100%;
+  }
+  .list {
+    display: none;
+  }
+  .no-pic {
+    display: none;
+  }
+  .service-large,
+  .price-pic1,
+  .last-sec1,
+  .team-sec1,
+  .service-sec1,
+  .portfolio-sec1 {
+    width: 50%;
+  }
+  .client-pic {
+    width: 25%;
+  }
+  .faq-ques {
+    padding: 10px;
+  }
+  .faq-list {
+    padding: 0px;
+  }
+  .addedspace {
+    padding: 10px;
+  }
+  .edit .fa {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+}
+
+
 /* --------- mobile view ----------------- */
 @media all and (max-width: 576px) {
   .container {
@@ -49,47 +91,4 @@
     display: flex;
     flex-wrap: wrap;
   }
-}
-/* ------------larger device------------------ */
-@media (min-width: 577px) and (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
-  .row > * {
-    width: 100%;
-  }
-  .list {
-    display: none;
-  }
-  .no-pic {
-    display: none;
-  }
-  .service-large,
-  .price-pic1,
-  .last-sec1,
-  .team-sec1,
-  .service-sec1,
-  .portfolio-sec1 {
-    width: 50%;
-  }
-  .client-pic {
-    width: 25%;
-  }
-  .faq-ques {
-    padding: 10px;
-  }
-  .faq-list {
-    padding: 0px;
-  }
-  .addedspace {
-    padding: 10px;
-  }
-  .edit .fa {
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-  }
-}
-/* ---------extra large device---------- */
-@media all and (max-width: 992px) {
 }
