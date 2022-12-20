@@ -1,7 +1,7 @@
 /* ------------larger device------------------ */
 @media (min-width: 577px) and (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 95%;
   }
   .row > * {
     width: 100%;
@@ -9,9 +9,25 @@
   .list {
     display: none;
   }
+  .head-cont{
+    width:70%;
+  }
+  .head-getstarted{
+    width:30%;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+  }
+  .logo{
+    padding:10px;
+  }
   .no-pic {
     display: none;
   }
+  .sub{
+    padding-top:30px;
+  }
+
   .service-large,
   .price-pic1,
   .last-sec1,
@@ -30,7 +46,8 @@
     padding: 0px;
   }
   .addedspace {
-    padding: 10px;
+    /* padding: 10px; */
+    margin:15px;
   }
   .edit .fa {
     display: flex;
@@ -50,6 +67,9 @@
   }
   .list {
     display: none;
+  }
+  .banner-content h1 {
+    font-size: 28px;
   }
   .space {
     padding: 10px;
