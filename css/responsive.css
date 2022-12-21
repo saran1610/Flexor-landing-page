@@ -1,4 +1,4 @@
-/* ------------larger device------------------ */
+/* ------------medium device------------------ */
 @media (min-width: 577px) and (max-width: 768px) {
   .container {
     width: 95%;
@@ -94,6 +94,7 @@
   }
   .footer-icon {
     padding: 30px;
+    justify-content: flex-start;
   }
   .col-sm-6 {
     width: 50%;
@@ -110,5 +111,97 @@
   .name-email {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+/* ---------------large device--------------------------- */
+@media(min-width: 769px) and (max-width: 992px) {
+  .container {
+    width: 95%;
+  }
+  .row > * {
+    width: 100%;
+  }
+  .list {
+    display: none;
+  }
+  .head-cont{
+    width:70%;
+  }
+  .team-pictures{
+    margin-bottom:20px;
+  }
+  .head-getstarted{
+    width:30%;
+  }
+  .service-sec1, .service-large, .portfolio-sec1, .team-sec1, .price-pic1, .last-sec1{
+    width:50%;
+  }
+  .small-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .small-box .fa{
+    padding-left:0px;
+  }
+  .addedspace{
+    margin:10px;
+}
+.footer-sec{
+  width:50%;
+}
+.client-pic{
+  width:25%;
+}
+.no-pic{
+  display: none;
+}
+}
+
+
+/* ---------extra large------------------- */
+@media(min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .row > * {
+    width: 100%;
+  }
+  .head-cont{
+    width:70%;
+  }
+  .head-getstarted{
+    width:30%;
+  }
+  .portfolio-sec1, .service-sec1{
+    width:33%;
+  }
+  .team-sec1, .price-pic1, .last-sec1{
+    width:25%;
+  }
+  .footer-sec, .service-large{
+    width:50%;
+  }
+  .client-pic{
+    width: 16%;
+  }
+  .header1{
+    width:20%;
+  }
+  .header2{
+    width:80%;
+  }
+  .abt1{
+    width:40%;
+  }
+  .abt2{
+    width:60%;
+  }
+  .about-img{
+    height:650px;
+  }
+  .contact1{
+    width:33%;
   }
 }
