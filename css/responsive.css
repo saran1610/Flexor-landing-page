@@ -1,4 +1,66 @@
-/* ------------medium device------------------ */
+/* --------- mobile view ----------------- */
+@media all and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .row > * {
+    width: 100%;
+  }
+  .list {
+    display: none;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+  }
+  .space {
+    padding: 10px;
+  }
+  .info-btn {
+    display: none;
+  }
+  .contact-info {
+    padding: 0px;
+  }
+  .about-cont .p1 {
+    padding: 0px;
+  }
+   .edit .fa {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+  .faq-list {
+    padding: 0px;
+  }
+  .faq-ques {
+    padding: 0px;
+  }
+  .footer-icon {
+    padding: 30px;
+    justify-content:center;
+  }
+  .footer-sec p{
+text-align: center;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .temp {
+    display: none;
+  }
+  .addedspace {
+    margin-top: 18px;
+  }
+  .name {
+    width: 100%;
+  }
+  .name-email {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* ------------small device------------------ */
 @media (min-width: 577px) and (max-width: 768px) {
   .container {
     width: 95%;
@@ -45,6 +107,13 @@
   .faq-list {
     padding: 0px;
   }
+   .footer-icon {
+    padding: 30px;
+    justify-content:center;
+  }
+  .footer-sec p{
+text-align: center;
+  }
   .addedspace {
     /* padding: 10px; */
     margin:15px;
@@ -56,65 +125,7 @@
   }
 }
 
-
-/* --------- mobile view ----------------- */
-@media all and (max-width: 576px) {
-  .container {
-    width: 100%;
-  }
-  .row > * {
-    width: 100%;
-  }
-  .list {
-    display: none;
-  }
-  .banner-content h1 {
-    font-size: 28px;
-  }
-  .space {
-    padding: 10px;
-  }
-  .info-btn {
-    display: none;
-  }
-  .contact-info {
-    padding: 0px;
-  }
-  .about-cont .p1 {
-    padding: 0px;
-  }
-  .small-box .fa {
-    padding-left: 150px;
-  }
-  .faq-list {
-    padding: 0px;
-  }
-  .faq-ques {
-    padding: 0px;
-  }
-  .footer-icon {
-    padding: 30px;
-    justify-content: flex-start;
-  }
-  .col-sm-6 {
-    width: 50%;
-  }
-  .temp {
-    display: none;
-  }
-  .addedspace {
-    margin-top: 18px;
-  }
-  .name {
-    width: 100%;
-  }
-  .name-email {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-/* ---------------large device--------------------------- */
+/* ---------------medium device--------------------------- */
 @media(min-width: 769px) and (max-width: 992px) {
   .container {
     width: 95%;
@@ -148,9 +159,13 @@
   .addedspace{
     margin:10px;
 }
-.footer-sec{
-  width:50%;
-}
+ .footer-icon {
+    padding: 30px;
+    justify-content:center;
+  }
+  .footer-sec p{
+text-align: center;
+  }
 .client-pic{
   width:25%;
 }
@@ -160,7 +175,7 @@
 }
 
 
-/* ---------extra large------------------- */
+/* --------- large------------------- */
 @media(min-width: 992px) and (max-width: 1200px) {
   .container {
     width: 95%;
@@ -173,6 +188,18 @@
   }
   .head-getstarted{
     width:30%;
+  }
+  .alignment{
+    align-items: flex-start !important;
+  }
+  .addedspace{
+    margin-top: 20px;
+  }
+  .big-align{
+    width:40%;
+  }
+  .small-align{
+    width:60%;
   }
   .portfolio-sec1, .service-sec1{
     width:33%;
@@ -203,5 +230,17 @@
   }
   .contact1{
     width:33%;
+  }
+   .edit .fa {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+}
+
+/* ------------------extra large---------------------------- */
+@media(min-width: 1201px) and (max-width: 1400px) {
+  .container {
+    width: 90%;
   }
 }
