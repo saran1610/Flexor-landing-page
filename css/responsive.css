@@ -63,7 +63,7 @@ text-align: center;
 /* ------------small device------------------ */
 @media (min-width: 577px) and (max-width: 768px) {
   .container {
-    width: 95%;
+    width: 90%;
   }
   .row > * {
     width: 100%;
@@ -128,7 +128,7 @@ text-align: center;
 /* ---------------medium device--------------------------- */
 @media(min-width: 769px) and (max-width: 992px) {
   .container {
-    width: 95%;
+    width: 85%;
   }
   .row > * {
     width: 100%;
